@@ -1,0 +1,39 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Build / packaging
+build/
+dist/
+*.spec
+*.manifest
+*.egg-info/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+
+# Temp files
+temp_clean.avi
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# FFmpeg (local binary)
+assets/ffmpeg.exe
+
+# Cache
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
