@@ -6,6 +6,7 @@ It allows users to load videos, navigate through frames, remove or keep specific
 
 It can be used for preparation of videos for labeling and annotation workflows.
 
+![Frame Editor](assets/image.png)
 
 ## Features
 
@@ -44,3 +45,4 @@ To generate the executable using PyInstaller:
 ```bash
 pyinstaller --onefile --windowed --add-binary "assets/ffmpeg.exe;." src/main.py
 ```
+
